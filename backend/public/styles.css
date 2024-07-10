@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Merriweather';
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather';
+    background-color: #11302a; /* Set entire page background color */
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+
+header {
+    background-color: #036264; /* Set header background color */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Space between login and signup */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease; /* Transition for border and transform */
+}
+
+nav ul li a:hover {
+    color: #000; /* Change text color to black on hover for better contrast */
+    background-color: #f2f2f2; /* Lighter background color on hover */
+}
+
+.signup-btn:hover {
+    transform: translateX(10px); /* Slide horizontally on hover */
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .logo {
+        font-size: 20px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav ul li a {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
+
+.landing {
+    padding-top: 50px;
+    padding-right:100px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+  
+ 
+}
+
+.landing h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.landing p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.container.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageimg {
+    margin-right: 20px;
+}
+
+.imageimg img {
+    width: 250px; 
+    height: 250px;
+    padding-top: 60px;
+}
